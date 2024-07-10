@@ -1,3 +1,6 @@
+
+<script>
+
 const CACHE_NAME = 'my-cache-v1';
 const urlsToCache = [
   '/',
@@ -45,6 +48,7 @@ self.addEventListener('fetch', event => {
 
 self.addEventListener('activate', event => {
   const cacheWhitelist = [CACHE_NAME];
+  </script>
 
   event.waitUntil(
     caches.keys().then(cacheNames => {
