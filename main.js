@@ -1,4 +1,4 @@
-
+<script>
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -11,3 +11,4 @@ if ('serviceWorker' in navigator) {
       });
   });
 }
+  </script>
